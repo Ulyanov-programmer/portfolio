@@ -12,7 +12,7 @@ new Typed(".header__subtitle", {
     "\u0412\u0435\u0440\u0441\u0442\u0430\u043B\u044C\u0449\u0438\u043A,^300 \u043A \u0432\u0430\u0448\u0438\u043C \u0443\u0441\u043B\u0443\u0433\u0430\u043C^300."
   ],
   typeSpeed: 50,
-  startDelay: 2e3,
+  startDelay: 1700,
   backSpeed: 30,
   showCursor: false
 });

@@ -13,7 +13,7 @@ new Typed('.header__subtitle', {
 		'Верстальщик,^300 к вашим услугам^300.',
 	],
 	typeSpeed: 50,
-	startDelay: 2000,
+	startDelay: 1700,
 	backSpeed: 30,
 	showCursor: false,
 })
