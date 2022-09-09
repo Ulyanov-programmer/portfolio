@@ -1,0 +1,54 @@
+@@include('components/_headContent.htm', {
+pageTitle: 'Портфолио',
+lang: 'ru',
+preloadedFontName: 'RobotoMono-VariableFont_wght',
+})
+
+@@include('components/_connectModules.htm', { modules: {
+generalScripts: true,
+swiper: true,
+typed: true,
+photoSwipe: true,
+animateByScroll: true,
+modalWindow: true,
+}})
+
+<!-- /-/ Stylesheets and scripts for this page -->
+<link rel="stylesheet" href="css/index.min.css">
+</head>
+
+<body>
+	@@include('_header.htm')
+
+	<main class="main">
+		<section class='works _overflow-x-hidden'>
+			<div class='works__body _container'>
+				<h2 tabindex='0' class='works__title _h2 _section-title _bold'>Мои работы</h2>
+
+				<div class='swiper _container_out-of-container works-slider'>
+					<div class='swiper-wrapper works-slider__wrapper'>
+						@@loop('components/_portfolioItemSlide.htm', 'works.json')
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class='reviews _overflow-x-hidden'>
+			<div class='reviews__body _container'>
+				<h2 tabindex='0' class='reviews__title _h2 _section-title _bold'>Отзывы</h2>
+
+				<div class='swiper _container_out-of-container reviews-slider'>
+					<div class='swiper-wrapper'>
+						@@loop('components/_reviewSlide.htm', 'reviews.json')
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	@@include('_footer.htm')
+
+	@@loop('components/_portfolioModal.htm', 'modals.json')
+</body>
+
+</html>
+<!-- Made in Russia, with ❤, by Ivan Ulyanov. -->

@@ -1,0 +1,56 @@
+[
+	{
+		"ref": "https://ulyanov-programmer.github.io/Jetro/Jetro/",
+		"imgName": "jetro",
+		"title": "Jetro",
+		"other": "Многостраничный сайт мультипликаторов."
+	},
+	{
+		"ref": "https://ulyanov-programmer.github.io/DesignAgency/DesignAgency/",
+		"imgName": "designer",
+		"title": "Персональный сайт дизайнера интерьеров",
+		"other": "И сложная сетка."
+	},
+	{
+		"ref": "https://ulyanov-programmer.github.io/HonorTheDetails/HonorTheDetails/",
+		"imgName": "honor",
+		"title": "Honor The Details",
+		"other": "Лендинг с необычным дизайном"
+	},
+	{
+		"ref": "https://ulyanov-programmer.github.io/FoodPage/FoodPage/",
+		"imgName": "rest",
+		"title": "Промо-страница сайта ресторана",
+		"other": "Полноэкранная страница."
+	},
+	{
+		"ref": "https://ulyanov-programmer.github.io/Online_Course/Online_Course/",
+		"imgName": "courses",
+		"title": "Сайт онлайн курсов",
+		"other": "Многостраничный, сложный."
+	},
+	{
+		"ref": "https://ulyanov-programmer.github.io/Kjolig_eComm/Kjølig_eComm/",
+		"imgName": "kjølig",
+		"title": "Kjølig",
+		"other": "Интернет-магазин"
+	},
+	{
+		"ref": "https://razodin.ru/",
+		"imgName": "exclusiveAdventures",
+		"title": "Сайт эксклюзивных путешествий",
+		"other": "Лендинг со сложными анимациями"
+	},
+	{
+		"ref": "https://ulyanov-programmer.github.io/Coffee-House/Coffee%20House/",
+		"imgName": "coffe",
+		"title": "Coffe House",
+		"other": "Удобный сайт кофейни."
+	},
+	{
+		"ref": "https://ulyanov-programmer.github.io/Business/Business/",
+		"imgName": "bus",
+		"title": "Crosson - Сайт компании",
+		"other": "Когда не бывает нерешаемых задач."
+	}
+]

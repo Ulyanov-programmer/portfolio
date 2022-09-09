@@ -1,0 +1,183 @@
+:root {
+  --main-font-family: RobotoMono;
+  --text-c: #fff;
+  --text-ref-c: #61626b;
+  --bg: #343434;
+  --black-text-c: #000;
+  --second-bg-color: #383838;
+}
+
+body {
+  height: max-content;
+  color: var(--text-c);
+  background: var(--bg);
+  font: calc( 0.0071428571 * 100vw + 13.7142857143px ) var(--main-font-family);
+}
+body:before {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 30;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  content: "";
+}
+
+.main > * {
+  padding: 50px 0;
+  min-height: 100vh;
+}
+@media (min-height: 600px) {
+  .main > * {
+    min-height: 80vh;
+  }
+}
+
+.works__body > *:not(:last-child) {
+  margin: 0 0 60px 0;
+}
+.works__title {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+.portfolio-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e3e3e3;
+  padding: 15px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.portfolio-item > *:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+@media (min-width: 1100px) {
+  .portfolio-item__preview {
+    width: 200px;
+    height: 200px;
+  }
+}
+.portfolio-item__preview img {
+  border-radius: 10px;
+}
+.portfolio-item__title {
+  padding-bottom: 15px;
+}
+.portfolio-item__other {
+  font-size: 0.8333333333rem;
+}
+.portfolio-item__about-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  width: max-content;
+  border-radius: 10px;
+  background: #cccccc;
+  transition: all 0.2s ease;
+}
+.portfolio-item__about-btn:hover, .portfolio-item__about-btn:focus {
+  background: #ababab;
+}
+
+.review {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  background: #e3e3e3;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.review > *:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+.review__photo {
+  width: 75px;
+  height: 75px;
+}
+.review__photo img {
+  border-radius: 10px;
+}
+.review__author-name {
+  padding-top: 10px;
+}
+.review__text {
+  font-size: 0.8333333333rem;
+}
+
+.reviews__body > *:not(:last-child) {
+  margin: 0 0 60px 0;
+}
+.reviews__title {
+  text-align: right;
+}
+
+.portfolio-about-modal {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: clamp(300px, 70vw, 800px);
+  height: clamp(400px, 80vh, 600px);
+  background: #e3e3e3;
+  color: var(--black-text-c);
+  padding: 30px;
+  border-radius: 15px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.portfolio-about-modal > *:not(:last-child) {
+  margin: 0 0 30px 0;
+}
+.portfolio-about-modal::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.portfolio-about-modal__gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  height: 200px;
+}
+.portfolio-about-modal__gallery > *:not(:last-child) {
+  margin: 0 20px 0 0;
+}
+@media (max-width: 768px) {
+  .portfolio-about-modal__gallery {
+    height: 300px;
+  }
+}
+.portfolio-about-modal__img-wrapper {
+  height: 100%;
+}
+.portfolio-about-modal__img-wrapper img {
+  border-radius: 5px;
+}
+.portfolio-about-modal__title {
+  text-align: center;
+}
+.portfolio-about-modal__text {
+  font-size: 0.9166666667rem;
+}
+.portfolio-about-modal__refs {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  font-size: 0.9166666667rem;
+}
+.portfolio-about-modal__refs > *:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+.portfolio-about-modal__refs > * {
+  color: var(--text-ref-c);
+  padding: 10px;
+}
+.portfolio-about-modal__refs > *:hover, .portfolio-about-modal__refs > *:focus {
+  text-decoration: underline;
+}

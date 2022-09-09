@@ -1,0 +1,173 @@
+[
+	{
+		"openId": "kjølig",
+		"title": "Kjølig, интернет-магазин",
+		"images": [
+			{
+				"path": "img/works/kjølig_1.jpg",
+				"width": "2880",
+				"height": "4108"
+			},
+			{
+				"path": "img/works/kjølig_mob_1.jpg",
+				"width": "850",
+				"height": "3780"
+			}
+		],
+		"text": "Средней сложности сайт, часто применяются слайдеры. <br> Две из трёх страниц пришлось адаптировать из мобильного дизайна под десктопный. Такое бывает нечасто, но для опытных верстальщиков - не проблема.",
+		"onlinePreviewRef": "https://ulyanov-programmer.github.io/Kjolig_eComm/Kjølig_eComm/",
+		"repositoryRef": "https://github.com/Ulyanov-programmer/Kjolig_eComm"
+	},
+	{
+		"openId": "exclusiveAdventures",
+		"title": "Сайт эксклюзивных путешествий",
+		"images": [
+			{
+				"path": "img/works/adv_1.png",
+				"width": "1920",
+				"height": "1080"
+			},
+			{
+				"path": "img/works/adv_3.png",
+				"width": "1920",
+				"height": "1080"
+			}
+		],
+		"text": "Красочный минималистичный сайт, на котром можно записаться на большое путешествие! <br> * Адаптивный, от 4К до Iphone 5 <br> * Меняющийся на глазах заголовок страницы <br> * Валидация форм и маски для полей <br> * Смена темы сайта в зависимости от времени суток <br> * Интерактивные страницы туров (на закрытых страницах), путь на их 'картах' плавно появляется, проходя все пункты маршута и заканчивается пунктирной линией",
+		"onlinePreviewRef": "https://razodin.ru/",
+		"repositoryRef": "#"
+	},
+	{
+		"openId": "honor",
+		"title": "Honor The Details - Главная страница компании с необычным дизайном",
+		"images": [
+			{
+				"path": "img/works/honor_1.jpg",
+				"width": "2880",
+				"height": "13866"
+			},
+			{
+				"path": "img/works/honor_MOB_1.jpg",
+				"width": "750",
+				"height": "12400"
+			}
+		],
+		"text": "Тот случай, когда дизайн попил из меня крови.",
+		"onlinePreviewRef": "https://ulyanov-programmer.github.io/HonorTheDetails/HonorTheDetails/",
+		"repositoryRef": "https://github.com/Ulyanov-programmer/HonorTheDetails"
+	},
+	{
+		"openId": "designer",
+		"title": "Персональный сайт дизайнера интерьеров",
+		"images": [
+			{
+				"path": "img/works/designer.png",
+				"width": "2880",
+				"height": "3564"
+			},
+			{
+				"path": "img/works/designer_MOB.png",
+				"width": "640",
+				"height": "4484"
+			}
+		],
+		"text": "Сложней всего было реализовать сетку с изображениями, то, что хорошо выглядит на дизайне не всегда получается на практике. Но получилось добавить зум при наведении. <br> Так же можно увидеть анимации при скролле.",
+		"onlinePreviewRef": "https://ulyanov-programmer.github.io/DesignAgency/DesignAgency/",
+		"repositoryRef": "https://github.com/Ulyanov-programmer/DesignAgency"
+	},
+	{
+		"openId": "rest",
+		"title": "Промо-страница сайта ресторана",
+		"images": [
+			{
+				"path": "img/works/rest.png",
+				"width": "1800",
+				"height": "1125"
+			},
+			{
+				"path": "img/works/rest_MOB.png",
+				"width": "544",
+				"height": "1125"
+			}
+		],
+		"text": "Полноэкранная страница сайта. Красивая, лаконичная. <br> * На фоне имеет проигрывающееся видео.<br>* Полностью адаптивно (от 4К до Iphone 5).",
+		"onlinePreviewRef": "https://ulyanov-programmer.github.io/FoodPage/FoodPage/",
+		"repositoryRef": "https://github.com/Ulyanov-programmer/FoodPage"
+	},
+	{
+		"openId": "coffe",
+		"title": "Coffe House",
+		"images": [
+			{
+				"path": "img/works/coffe.png",
+				"width": "2880",
+				"height": "2625"
+			},
+			{
+				"path": "img/works/coffe_MOB.png",
+				"width": "850",
+				"height": "5594"
+			}
+		],
+		"text": "Простой и удобный - таким должен быть сайт тех, кто предоставляет услуги.<br> Я сделал его таким настолько, насколько это возможно. Чего стоит одно только 'выдвигающееся' окно с правого боку? <br>Обратите внимание, на сайте есть две страницы. Для перехода нажмите на любую 'плитку' кофе.",
+		"onlinePreviewRef": "https://ulyanov-programmer.github.io/Coffee-House/Coffee%20House/",
+		"repositoryRef": "https://github.com/Ulyanov-programmer/Coffee-House"
+	},
+	{
+		"openId": "jetro",
+		"title": "Jetro - Многостраничный сайт мультипликаторов",
+		"images": [
+			{
+				"path": "img/works/jetro.png",
+				"width": "1918",
+				"height": "2193"
+			},
+			{
+				"path": "img/works/jetro_MOB.png",
+				"width": "842",
+				"height": "4716"
+			}
+		],
+		"text": "Отличный дизайн, полноценный функционал = прекрасный сайт. <br> Обратите внимание, работоспособны все ссылки в меню сайта.",
+		"onlinePreviewRef": "https://ulyanov-programmer.github.io/Jetro/Jetro/",
+		"repositoryRef": "https://github.com/Ulyanov-programmer/Jetro"
+	},
+	{
+		"openId": "courses",
+		"title": "Многостраничный сайт онлайн курсов",
+		"images": [
+			{
+				"path": "img/works/courses.png",
+				"width": "2880",
+				"height": "16384"
+			},
+			{
+				"path": "img/works/courses_MOB.png",
+				"width": "750",
+				"height": "16384"
+			}
+		],
+		"text": "Большие сайты - это всегда непросто, нужно тщательно изучить дизайн, много писать (очень много), унифицировать, чуть ли не создавать целую библиотеку. <br>~ 9 страниц. <br>~ Адаптивный.",
+		"onlinePreviewRef": "https://ulyanov-programmer.github.io/Online_Course/Online_Course/",
+		"repositoryRef": "https://github.com/Ulyanov-programmer/Online_Course"
+	},
+	{
+		"openId": "bus",
+		"title": "Многостраничный сайт онлайн курсов",
+		"images": [
+			{
+				"path": "img/works/bus.png",
+				"width": "2880",
+				"height": "9870"
+			},
+			{
+				"path": "img/works/bus_MOB.png",
+				"width": "850",
+				"height": "11490"
+			}
+		],
+		"text": "Многостраничный сайт компании по производству продуктов.<br>~ Анимации на главной странице. Даже в слайдере.<br>~ 8 страниц. <br>~ Адаптивный.",
+		"onlinePreviewRef": "https://ulyanov-programmer.github.io/Business/Business/",
+		"repositoryRef": "https://github.com/Ulyanov-programmer/Business"
+	}
+]

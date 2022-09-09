@@ -1,0 +1,132 @@
+@use '../connectHelper' as *
+
+html
+	scroll-behavior: smooth
+
+	@media (min-width: 768px)
+		scrollbar-width: none
+		&::-webkit-scrollbar
+			width: 0
+			height: 0
+
+	::selection
+		background: #656565
+		color: #fff
+
+._container
+	margin: auto
+
+	@media (min-width: #{$layoutWidth + px})
+		// Insert the width of the container as a percentage of the width of the layout.
+		width: 80vw
+
+	@media (min-width: 768px) and (max-width: #{$layoutWidth + px})
+		width: 90vw
+
+	@media (min-width: 426px) and (max-width: 768px)
+		width: 90vw
+
+	@media (max-width: 426px)
+		width: 95vw
+
+	&_out-of-container
+		margin: 0 -5vw !important
+		padding: 0 5vw !important
+
+		@media (min-width: #{$layoutWidth + px})
+			margin: 0 -10vw !important
+			padding: 0 10vw !important
+		@media (max-width: 426px)
+			margin: 0 -2.5vw !important
+			padding: 0 2.5vw !important
+
+.modal-window
+	z-index: 15
+	+pseudoInset(fixed, 0, 0)
+	+hide()
+	background: rgba(0, 0, 0, 0.3)
+	backdrop-filter: blur(1px)
+	transition: all .3s ease
+
+	&.active
+		+show()
+
+	&__body
+		display: grid
+		+block-size(100vw, 100vh)
+		place-items: center center
+
+	&__closer
+		display: none
+
+.searchbar
+	+flex-set(row, nowrap)
+
+	&__input
+		transition: all 0.3s ease
+
+		&:hover, &:focus
+
+	&__submit
+		transition: all 0.3s ease
+
+		&:hover, &:focus
+
+		img
+			+block-size(20px)
+
+._contain-img
+	img
+		+block-size(100%)
+		object-fit: contain
+
+._cover-img
+	img
+		+block-size(100%)
+		object-fit: cover
+
+._black-color
+	color: var(--black-text-c)
+	button
+		color: var(--black-text-c)
+
+._roboto-font
+	font-family: Roboto
+
+._h1
+	font-size: 48px
+	&:after
+		display: inline-block
+		content: ''
+
+	@media (max-width: 426px)
+		font-size: 32px
+
+._h2
+	font-size: 36px
+	@media (max-width: 426px)
+		font-size: 26px
+
+._section-title
+	font-size: adaptiveFontSize(48, 36)
+
+._overflow-x-hidden
+	overflow-x: hidden
+	overflow-y: hidden
+
+._thin
+	font-weight: 100
+._extra-light
+	font-weight: 200
+._light
+	font-weight: 300
+._medium
+	font-weight: 500
+._semi-bold
+	font-weight: 600
+._bold
+	font-weight: 700
+._extra-bold
+	font-weight: 800
+._black
+	font-weight: 900

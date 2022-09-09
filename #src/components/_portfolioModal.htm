@@ -1,0 +1,27 @@
+<section id="@@openId" class='modal-window'>
+	<div class="modal-window__body">
+		<section class='work-about'>
+			<button class="modal-window__closer work-about__close" type='button' data-modal-closer>
+			</button>
+			<article class="portfolio-about-modal">
+				<div id="portfolio-about-modal__gallery" class="portfolio-about-modal__gallery">
+					@@for (var i = 0; i < images.length; i++) {
+					<a href="`+images[i].path+`" class="portfolio-about-modal__img-wrapper _cover-img" data-pswp-width="`+images[i].width+`" data-pswp-height="`+images[i].height+`">
+						<img src="`+images[i].path+`" loading='lazy' alt='Версия для ПК'>
+					</a>
+					}
+				</div>
+				<span class="portfolio-about-modal__title _bold">
+					@@title
+				</span>
+				<p class="portfolio-about-modal__text">
+					@@text
+				</p>
+				<div class="portfolio-about-modal__refs">
+					<a href='@@onlinePreviewRef' target='_blank' rel='noopener noreferrer'>Онлайн-превью</a>
+					<a href='@@repositoryRef' target='_blank' rel='noopener noreferrer'>Репозиторий</a>
+				</div>
+			</article>
+		</section>
+	</div>
+</section>

@@ -1,0 +1,61 @@
+@use '../connectHelper' as *
+
+.navmenu
+	&__body
+		+flex-set(row, wrap)
+		+notLastChildMargin(0 15px 0 0)
+
+		li
+			a, button
+				display: inline-block
+				padding: 8px
+				color: inherit
+				transition: all .2s ease 0s
+
+				&:hover, &:focus
+					text-decoration: underline
+
+.logo
+	z-index: 10
+	img
+		border-radius: 10px
+
+.header
+	padding: 0 20px
+	position: relative
+	z-index: 5
+
+	&__body
+		+flex-set(column, nowrap)
+		justify-content: center
+		align-items: center
+		text-align: center
+		height: 100vh
+		min-height: 400px
+		+notLastChildMargin(0 0 50px 0)
+
+	// &__titles
+
+	&__subtitle
+		font-size: 28px
+		&:after
+			display: inline-block
+			content: ''
+		@media (max-width: 600px)
+			font-size: adaptiveFontSize(22, 16)
+
+	&__refs
+		margin-top: 50px
+		+flex-set(row, nowrap)
+		justify-content: center
+		+notLastChildMargin(0 150px 0 0)
+		*
+			+block-size(50px, 50px)
+			transition: all .2s ease
+			&:hover, &:focus
+				transform: scale(1.1)
+
+.icon-ref
+
+.fl
+.github
